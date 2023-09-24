@@ -1,0 +1,58 @@
+Home Icon
+CSS   $$('#homeIcon')
+Xpath $x("//img[@id='homeIcon']")
+
+Home menu
+CSS   $$ ("#nav-link-home")    
+Xpath $x ('//a[@id="nav-link-home"]')
+
+Profile
+1.
+CSS $$("#nav-link-profile")
+Xpath $x('//a[@id="nav-link-profile"]')
+2.
+CSS     $$("a[href = '/users/4964']")  ;   
+Xpath   $x("//*[contains(@id,'profile')]")
+
+New Post
+CSS    $$('#nav-link-new-post')
+Xpath  $x('//a[@id="nav-link-new-post"]')
+
+Search bar
+Css  $$('input[id^=search]') //  $$('#search-bar')
+Xpath $x('//input[@id="search-bar"]')
+
+Search magnifying glass image
+Css $$(".search-container i")
+Xpath  $x('//i["form/*[2]"][@class="fas fa-search"]')
+
+Sign out
+Css  $$('i[class = "fas fa-sign-out-alt fa-lg"]') // $$('.nav-link i')
+Xpath $x('//i[@class="fas fa-sign-out-alt fa-lg"]')
+
+Sign in 
+Xpath $x ('//p[contains(text(), "Sign in")]')
+CSS   $$('p.h4')
+
+Username and email
+Xpath $x('//input[@id="defaultLoginFormUsername"][@name="usernameOrEmail"]')
+Css   $$('#defaultLoginFormUsername')
+
+Remember me button
+Xpath $x('//input[contains(@class, "button")]')
+Css  $$('.remember-me>input')
+
+Remember me line
+Xpath $x('//span[contains(text(),"Remember me")]')
+Css $$('.remember-me span')
+
+Sign in button 
+Xpath $x('//button[@type="submit"]')
+Css $$("#sign-in-button")   // $$('button[type ="submit"]')
+
+Images bottom
+Css $$('div>img')
+
+Third image - bottom
+Xpath $x('//div/img[3]')
+Css $$('div.col-6 img:last-child')
